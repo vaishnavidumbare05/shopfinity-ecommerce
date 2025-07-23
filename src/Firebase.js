@@ -1,14 +1,16 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCwp9V5aNBu5E0SsLH1y4qJrLL8QWUKGhM",
-  authDomain: "clone-6abe8.firebaseapp.com",
-  projectId: "clone-6abe8",
-  storageBucket: "clone-6abe8.appspot.com",
-  messagingSenderId: "752575321294",
-  appId: "1:752575321294:web:061c2c5c5aeed11253ec9f"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId:  process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket:  process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,  // FIXED: use correct domain
+  messagingSenderId:  process.env.REACT_APP_FIREBASE_MESSAGING_SENDERID,
+  appId:  process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId:  process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-

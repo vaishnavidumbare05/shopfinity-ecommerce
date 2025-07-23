@@ -192,7 +192,7 @@ function CartSection() {
               <p>
                 Congrats! You're eligible for <b>Free Delivery</b>.
                 <p style={{ marginTop: "5px", marginBottom: "0px" }}>
-                  Use code <b>Vaishh05</b> for 20% discount.
+                  Use code <b>VAISHH05</b> for 20% discount.
                 </p>
               </p>
             </div>
@@ -206,11 +206,11 @@ function CartSection() {
               />
               <button
                 onClick={() => {
-                  if (promocode === "SHUBHO20") {
+                  if (promocode === "VAISHH05") {
                     TotalValue(totalPrice1);
                     setdiscountCode(promocode);
                     setCorrectCode(true);
-                  } else if (promocode !== "SHUBHO20") {
+                  } else if (promocode !== "VAISHH05") {
                     setdiscountCode(promocode);
                     TotalValue(totalPrice2);
                     setCorrectCode(false);
@@ -229,7 +229,7 @@ function CartSection() {
               }
               className="applied"
             >
-              <b>SHUBHO20</b> has been applied!
+              <b>VAISHH05</b> has been applied!
             </p>
             <p
               style={

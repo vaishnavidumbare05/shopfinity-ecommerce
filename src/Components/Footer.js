@@ -71,7 +71,7 @@ function Footer() {
             <p>&copy; 2025 | Developed by </p>
             <a
               className="dev-link"
-              href="https://www.linkedin.com/in/vaishnavi-dumbare/"
+              href="https://github.com/vaishnavidumbare05/"
               target="_blank"
             >
               Vaishnavi Dumbare

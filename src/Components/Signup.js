@@ -132,7 +132,7 @@ function Signup() {
       <div className="signin-page">
         <div className="login-navbar">
           <div className="main-logo">
-            <img src={Logo} className="amazon-logo" />
+            <img src={Logo} className="shopfinity-logo" />
           </div>
           <div className="signup">
             <Link to="/">
